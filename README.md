@@ -1,6 +1,6 @@
 # Set Timezone Action
 
-![Test Action](https://github.com/szenius/set-timezone/workflows/.github/workflows/action.yml/badge.svg)
+![Test Action](https://github.com/szenius/set-timezone/workflows/.github/workflows/test_run_action.yml/badge.svg)
 
 This action sets timezone in your runner's locale based on its OS.
 
@@ -15,7 +15,7 @@ This action sets timezone in your runner's locale based on its OS.
 ## Example usage
 
 ```yaml
-uses: hkai-engineer/set-timezone@v1.3
+uses: hkai-engineer/set-timezone@v2
 with:
   timezoneLinux: "Asia/Hong_Kong"
   timezoneMacos: "Asia/Hong_Kong"

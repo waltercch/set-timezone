@@ -19,4 +19,4 @@ inputs:
     default: "UTC"
 runs:
   using: "node20"
-  main: "dist/index.js"
+  main: "dist/index.mjs"
